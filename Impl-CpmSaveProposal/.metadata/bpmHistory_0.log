@@ -1,0 +1,98 @@
+[12 Mar, 2024 11:01:19.042 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Workbench session started
+[12 Mar, 2024 11:01:19.073 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Product name: IBM Integration Designer 22.0.2, Product ID: com.ibm.wbit.feature.ide, Product version: 22.0.2
+[12 Mar, 2024 11:01:29.543 IST] 00000035 bpmHist       I [com.ibm.wbit.lombardi.runtime.server.PCServerHelper:createRuntime(PCServerHelper.java:1796)] PC_SERVER_HELPER: Workflow Center server runtime is being created.
+[12 Mar, 2024 11:01:29.543 IST] 00000035 bpmHist       I [com.ibm.wbit.lombardi.runtime.server.PCServerHelper:createRuntime(PCServerHelper.java:1834)] PC_SERVER_HELPER: Workflow Center server runtime is pointing to the server stub.
+[12 Mar, 2024 11:01:29.886 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Part opened.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[12 Mar, 2024 11:01:29.886 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[12 Mar, 2024 11:01:29.886 IST] 00000037 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverAdded(SCAServerTraceHandler.java:218)] SERVER Added "IBM Workflow Server at localhost" Details...
+ID=com.ibm.ws.ast.st.v85.server.bi
+Host=localhost
+Mode=run
+Type=IBM Workflow Server
+Modules=
+
+[12 Mar, 2024 11:01:41.147 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Part activated.  Name: Task Flows, ID: com.ibm.wbit.taskflow.ui.views.TaskFlowView, Type: org.eclipse.ui.internal.ViewReference
+[12 Mar, 2024 11:01:41.586 IST] 00000060 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:157)] SERVER State changed to "Started" for server "IBM Workflow Server at localhost" Details...
+Port[1]=ServerPort [, wasServerPort, 9081, HTTP]
+Port[2]=ServerPort [, wasServerPort, 80, HTTP]
+Port[3]=ServerPort [, wasServerPort, 9444, HTTP]
+Port[4]=ServerPort [, wasServerPort, 5063, HTTP]
+Port[5]=ServerPort [, wasServerPort, 5062, HTTP]
+Port[6]=ServerPort [, wasServerPort, 443, HTTP]
+Connection Properties ={krb5Service=, port=9634, securityEnabled=true, com.ibm.IPC.requestTimeout=180, java.protocol.handler.pkgs=com.ibm.net.ssl.www.protocol, username=celladmin, type=IPC, krb5Config=, authTarget=BasicAuth, password=*************, loginsource=prompt, timeToExpiration=360, host=localhost, krb5Ccache=}
+
+[12 Mar, 2024 11:01:41.867 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Part opened.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[12 Mar, 2024 11:01:41.867 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[12 Mar, 2024 11:01:42.023 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Part activated.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[12 Mar, 2024 11:01:42.850 IST] 00000032 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:637)] PUBLISH START (PUBLISH_INCREMENTAL) Server = IBM Workflow Server at localhost
+[12 Mar, 2024 11:01:42.850 IST] 00000032 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:669)] PUBLISH Default - publish all
+[12 Mar, 2024 11:01:43.026 IST] 00000032 bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Exception loading pre-publish extensions:  CoreException(Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.) Details...
+org.eclipse.core.runtime.CoreException: Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPublishers(ExtensionPointHelper.java:71)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPrePublishers(ExtensionPointHelper.java:37)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publishModules(SCAServerBehaviour.java:848)
+	at com.ibm.wbit.runtime.v61.WBIServerBehaviour.publishModules(WBIServerBehaviour.java:47)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publish(SCAServerBehaviour.java:671)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3182)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:355)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.lang.ClassNotFoundException: com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher cannot be found by com.ibm.bpm.common.rest_8.6.20.v20220610-015506
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:484)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:873)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 13 more
+
+[12 Mar, 2024 11:01:43.026 IST] 00000032 bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Var_1=com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+[12 Mar, 2024 11:01:43.261 IST] 00000032 bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Exception loading pre-publish extensions:  CoreException(Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.) Details...
+org.eclipse.core.runtime.CoreException: Plug-in com.ibm.bpm.common.rest was unable to load class com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPublishers(ExtensionPointHelper.java:71)
+	at com.ibm.wbit.runtime.server.util.ExtensionPointHelper.loadPostPublishers(ExtensionPointHelper.java:47)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publishModules(SCAServerBehaviour.java:866)
+	at com.ibm.wbit.runtime.v61.WBIServerBehaviour.publishModules(WBIServerBehaviour.java:47)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at com.ibm.wbit.runtime.server.SCAServerBehaviour.publish(SCAServerBehaviour.java:671)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3182)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:355)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.lang.ClassNotFoundException: com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher cannot be found by com.ibm.bpm.common.rest_8.6.20.v20220610-015506
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:484)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:873)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	... 13 more
+
+[12 Mar, 2024 11:01:43.261 IST] 00000032 bpmHist       E [com.ibm.wbit.runtime.server.util.ExtensionPointHelper:loadPublishers(ExtensionPointHelper.java:85)] Var_1=com.ibm.wbit.sib.mediation.primitives.dynasm.core.publish.VocabularyPublisher
+[12 Mar, 2024 11:01:43.292 IST] 00000032 bpmHist       I [com.ibm.wbit.runtime.server.SCAServerBehaviour:publish(SCAServerBehaviour.java:719)] PUBLISH END
+[12 Mar, 2024 11:01:48.909 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Part activated.  Name: Business Integration, ID: com.ibm.wbit.ui.logicalview.WBILogicalView, Type: org.eclipse.ui.internal.ViewReference
+[12 Mar, 2024 11:01:59.974 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Part closed.  Name: Getting Started - IBM Integration Designer, ID: com.ibm.bpm.gettingstarted.editor.GettingStartedEditor, Type: org.eclipse.ui.internal.EditorReference
+[12 Mar, 2024 11:02:00.104 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Part closed.  Name: Task Flows, ID: com.ibm.wbit.taskflow.ui.views.TaskFlowView, Type: org.eclipse.ui.internal.ViewReference
+[12 Mar, 2024 11:02:00.104 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[12 Mar, 2024 11:02:00.151 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Part closed.  Name: Server Logs, ID: com.ibm.wbit.comptest.ui.view.HorizontalTraceView, Type: org.eclipse.ui.internal.ViewReference
+[12 Mar, 2024 11:02:00.166 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[12 Mar, 2024 11:02:00.197 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Part closed.  Name: Servers, ID: org.eclipse.wst.server.ui.ServersView, Type: org.eclipse.ui.internal.ViewReference
+[12 Mar, 2024 11:02:00.197 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[12 Mar, 2024 11:02:00.307 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Part closed.  Name: Business Integration, ID: com.ibm.wbit.ui.logicalview.WBILogicalView, Type: org.eclipse.ui.internal.ViewReference
+[12 Mar, 2024 11:02:00.307 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Perspective changed.  Name: Business Integration, ID: com.ibm.wbit.ui.WBIPerspective
+[12 Mar, 2024 11:02:00.551 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Window closed.  Name: 
+[12 Mar, 2024 11:02:01.180 IST] 00000001 bpmHist       I [com.ibm.wbit.ui.GeneralUITracing:writeToHistory(GeneralUITracing.java:378)] GENERAL_UI Workbench session ended
+[12 Mar, 2024 11:02:06.939 IST] 00000045 bpmHist       I [com.ibm.wbit.runtime.server.trace.SCAServerTraceHandler:serverChanged(SCAServerTraceHandler.java:165)] SERVER State changed to "Stopped" for server "IBM Workflow Server at localhost"

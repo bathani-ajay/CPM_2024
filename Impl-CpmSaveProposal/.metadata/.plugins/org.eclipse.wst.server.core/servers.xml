@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><servers>
+  <server auto-publish-setting="1" baseServerName="server1" hostname="localhost" id="wps_v86" id-set="true" isAliveTimeout="60000" isAutoConnectionTypeEnabled="false" isHotMethodReplace="true" isOptimiziedForDevelopmentEnv="true" isQuickBatchServerStart="true" isRunServerWithWorkspaceResources="false" isSecurityEnabled="true" isUTCEnabled="true" isZeroBinaryEnabled="false" name="IBM Workflow Server at localhost" publish-trigger-type="publish-trigger-type-global" runtime-id="wps.v86" sca-test-environment="true" securityPasswd="{xor}HDozMx8eOzI2MW5tbA==" securityUserId="celladmin" server-type="com.ibm.ws.ast.st.v85.server.bi" server-type-id="com.ibm.ws.ast.st.v85.server.bi" serverConnectionType="IPC" serverIPCConnectorPortNum="9634" serverOrbBootstrapPortNum="2810" serverSoapConnectorPortNum="8881" start-timeout="600" stop-timeout="240" timestamp="0" webSphereProfileName="qbpmaps">
+    <list key="connectorTypeList" value0="IPC" value1="SOAP"/>
+  </server>
+</servers>

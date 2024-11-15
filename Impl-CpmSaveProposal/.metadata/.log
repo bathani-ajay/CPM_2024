@@ -1,0 +1,22 @@
+!SESSION 2024-03-12 11:00:44.533 -----------------------------------------------
+eclipse.buildId=3.4.0
+java.fullversion=8.0.7.5 - pwa6480sr7fp5-20220208_01(SR7 FP5)
+JRE 1.8.0 Windows Server 2019 amd64-64-Bit Compressed References 20220104_19630 (JIT enabled, AOT enabled)
+OpenJ9   - 2d4c7d9
+OMR      - 59845b7
+IBM      - 3c151c1
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -showlocation -product com.ibm.wbit.feature.ide -product com.ibm.wbit.feature.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.wbit.feature.ide -product com.ibm.wbit.feature.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-12 11:01:05.433
+!MESSAGE Both 'com.ibm.etools.wrd.extensions' and 'com.ibm.zcc.etools.wrd.extensions' register a package for 'http://www.ibm.com/xmlns/prod/websphere/wrd/extensions/v6.0.0/'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-12 11:01:05.464
+!MESSAGE Both 'com.ibm.etools.wrd.extensions' and 'com.ibm.zcc.etools.wrd.extensions' register an extension parser for 'wrd_linkers'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-12 11:01:05.480
+!MESSAGE Both 'com.ibm.etools.wrd.extensions' and 'com.ibm.zcc.etools.wrd.extensions' register an extension parser for 'dyn_annotModel'
+
+!ENTRY org.eclipse.ui 2 2 2024-03-12 11:01:14.455
+!MESSAGE com.ibm.xtools.mde.guidance: Deprecated relationship "fast" should be converted to "stack".

@@ -1,0 +1,24 @@
+<SchemaVersion>2.1.1</SchemaVersion>
+<SoftwareIdentity>
+	<PersistentId>e6552de8218e405890fd8b98a69a3db7</PersistentId>
+	<Name>IBM Business Process Manager Integration Designer</Name>
+	<InstanceId>OTTP12Q5CAPFUA2/C:/IBM/IID/IID/?TATAAIGUAT/APPADMIN</InstanceId>
+</SoftwareIdentity>
+<Metric logTime="2024-03-12T11:01:17+05:30">
+	<Type>AUTHORIZED_USER</Type>
+	<SubType></SubType>
+	<Value>1</Value>
+	<Period>
+		<StartTime>2024-03-12T11:01:17+05:30</StartTime>
+		<EndTime>2024-03-12T11:01:17+05:30</EndTime>
+	</Period>
+</Metric>
+<Metric logTime="2024-03-12T11:02:01+05:30">
+	<Type>AUTHORIZED_USER</Type>
+	<SubType></SubType>
+	<Value>1</Value>
+	<Period>
+		<StartTime>2024-03-12T11:01:17+05:30</StartTime>
+		<EndTime>2024-03-12T11:02:01+05:30</EndTime>
+	</Period>
+</Metric>
